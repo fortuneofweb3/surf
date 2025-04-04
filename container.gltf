@@ -1,0 +1,313 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 896,
+      "max": [
+        2307.4375,
+        718.1123046875,
+        696.2066650390625
+      ],
+      "min": [
+        -1615.4683837890625,
+        -666.8355102539063,
+        -696.2066650390625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10752,
+      "componentType": 5126,
+      "count": 896,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 896,
+      "max": [
+        0.625,
+        0.9958052039146423
+      ],
+      "min": [
+        0.13577759265899658,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1344,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21504,
+      "componentType": 5126,
+      "count": 1416,
+      "max": [
+        1649.392333984375,
+        708.597412109375,
+        671.1012573242188
+      ],
+      "min": [
+        -1615.4683837890625,
+        -666.8355102539063,
+        -671.1012573242188
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 38496,
+      "componentType": 5126,
+      "count": 1416,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7168,
+      "componentType": 5126,
+      "count": 1416,
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.125,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5376,
+      "componentType": 5125,
+      "count": 3174,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "juliaedobbs (https://sketchfab.com/juliaedobbs)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/large-containment-crate-e105a5568323463897f1c478e2220eb0",
+      "title": "Large Containment Crate"
+    },
+    "generator": "Sketchfab-15.13.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 18072,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18496,
+      "byteOffset": 18072,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 55488,
+      "byteOffset": 36568,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 92056,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Crate_Accent",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.00545159,
+          0.00275953,
+          0.06072,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9987119358309863
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Giant_Crate",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.00996529,
+          0.0262639,
+          0.137584,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9960190723604041
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Big Crate_Crate Accent_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Big Crate_Giant Crate_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "043ec5732df54d35a4db957e321303d1.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        -0.2373776352762047,
+        2.9070376123017174e-17,
+        0.9714174479958022,
+        0.0,
+        2.4142900674713027e-16,
+        1.0,
+        2.9070376123017174e-17,
+        0.0,
+        -0.9714174479958022,
+        2.4142900674713027e-16,
+        -0.2373776352762047,
+        0.0,
+        -1463.4515380859375,
+        666.8355102539063,
+        -1314.2261962890625,
+        1.0
+      ],
+      "name": "Big Crate"
+    },
+    {
+      "mesh": 0,
+      "name": "Big Crate_Crate Accent_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Big Crate_Giant Crate_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
